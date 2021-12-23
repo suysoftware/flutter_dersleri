@@ -1,0 +1,7 @@
+import 'package:flutter_dersleri/Ders3_Yap%C4%B1lar/Inheritance-Kal%C4%B1t%C4%B1m/Arac.dart';
+
+class Araba extends Arac{
+  String kasaTipi;
+
+  Araba(this.kasaTipi,String renk,String vites):super(renk,vites);
+}
